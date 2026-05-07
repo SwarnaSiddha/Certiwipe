@@ -4,5 +4,3 @@ psutil==5.9.8
 reportlab==4.1.0
 python-multipart==0.0.9
 pydantic==2.6.4
-# Windows only — raw disk I/O (uncomment if on Windows):
-# pywin32==306
