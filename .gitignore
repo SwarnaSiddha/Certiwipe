@@ -1,5 +1,12 @@
-venv/
-__pycache__/
-*.pyc
+# venv/
+# __pycache__/
+# *.pyc
+# node_modules/
+# .env
+dist/
+frontend/dist/
 node_modules/
-.env
+venv/
+*.exe
+*.blockmap
+*.yml
