@@ -1,0 +1,27 @@
+{
+  "name": "finaldtiproject",
+  "version": "1.0.0",
+  "description": "Wipe demo data. No simulation. 100% real device I/O.",
+  "main": "electron.js",
+  "scripts": {
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && uvicorn main:app --reload",
+    "electron": "electron .",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\" \"wait-on http://localhost:5173 && npm run electron\"",
+    "dist":"electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SwarnaSiddha/Certiwipe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "electron": "^42.0.1",
+    "electron-builder": "^26.8.1",
+    "wait-on": "^9.0.5"
+  }
+}
