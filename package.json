@@ -1,5 +1,6 @@
 {
-  "name": "finaldtiproject",
+  "name": "CERTIWIPE",
+  "productName":"CERTIWIPE",
   "version": "1.0.0",
   "description": "Wipe demo data. No simulation. 100% real device I/O.",
   "main": "electron.js",
